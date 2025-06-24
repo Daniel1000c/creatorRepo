@@ -69,9 +69,50 @@
 </section>
 
 <!--Contact Us Section-->
-<section id="contact" class="alternatingTheme">
+<section id="contact" class="alternatingTheme contactSection">
     <div class="container">
-        <h2>template text</h2>
+        <h2>Get In Touch With <span>Me</span></h2>
+        <p>
+            Have any questions or inquiries? Don't hesitate to reach out to me.
+        </p>
+
+        <!--Row Container-->
+        <div class="row">
+
+            <!--Column Items-->
+
+            <!--Contact Information-->
+            <div class="col-12 col-md-6 mb-4 mb-md-0 contactInformation">
+                <h3>Contact Information</h3>
+                <p>
+                    Have something to say? I am here to help. Fill up the form or send an email or call my number.
+                </p>
+                <ul class="contactList">
+                    <li><i class='bx bxs-map'></i> 12172 SW 52nd CT, FL 33330</li>
+                    <li><i class="bx bxs-envelope"></i> velezdaniel6162@gmail.com</li>
+                    <li><i class="bx bxs-phone"></i> 305-527-0765</li>
+                </ul>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3584.37745106665!2d-80.31289052402717!3d26.05391809646765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9a7ae27c9e771%3A0x1d8d866e38d06c4b!2s12172%20SW%2052nd%20Ct%2C%20Cooper%20City%2C%20FL%2033330!5e0!3m2!1sen!2sus!4v1750792185518!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           </div>
+
+           <!--Contact Form-->
+            <div class="col-12 col-md-6 mb-4 mb-md-0 contactForm">
+                <form action="contactForm.php" method="post" name="contactForm" id="contactForm" autocomplete="off">
+
+                    <!--Name Input-->
+                    <input type="text" name="name" id="name" placeholder="Full Name" class="form-control"><br>
+
+                    <!--Email Input-->
+                    <input type="email" name="email" id="email" placeholder="Email Address" class="form-control"><br>
+
+                    <!--Message Input-->
+                    <textarea name="message" id="message" placeholder="Your Message" rows="5" class="form-control"></textarea><br>
+
+                    <input type="submit" value="Send Message">
+                    
+                </form>
+           </div>
+        </div>
     </div>
 </section>
 
