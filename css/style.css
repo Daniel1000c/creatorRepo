@@ -175,6 +175,7 @@ section {
 /*Odd Sections*/
 .alternatingTheme:nth-child(odd) {
     background-color: #6cc644;
+    color: white;
 }
 /*Format hero section*/
 .heroSection {
@@ -366,6 +367,110 @@ section {
     display: inline-block;
     width: 1em;
 }
+
+/**Contact Section Formatting**/
+
+/*Format contact section span*/
+.contactSection span {
+    color: var(--primary-color);
+}
+
+/*Format contact section p tag*/
+.contactSection p {
+    font-family: var(--primary-nav-font);
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 25px;
+}
+
+/*Format contact information*/
+.contactInformation {
+    text-align: left;
+}
+
+/*Format contact information title*/
+.contactInformation h3 {
+    color: var(--primary-color);
+    font-family: var(--primary-nav-font);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+/*Format contact information text*/
+.contactInformation p {
+    font-family: var(--primary-nav-font);
+    font-weight: normal;
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+}
+
+/*Format contact information list*/
+.contactList {
+    list-style-type: none;
+    padding: 0;
+}
+
+/*Format list items*/
+.contactList li {
+    font-family: var(--primary-nav-font);
+    font-size: 1rem;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+/*Format contact list icons*/
+.contactList i {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+/*Format contact information iframe*/
+.contactInformation iframe {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/*Format contact form*/
+form {
+    padding: 20px;
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/*Format input tags*/
+input[type="text"], input[type="email"], input[type="submit"], textarea{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*Format submit button*/
+input[type="submit"] {
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    font-family: var(--primary-nav-font);
+    font-size: 1rem;
+    letter-spacing: 2px;
+    transition: all 0.5s ease-in-out;
+}
+
+/*Format submit button hover*/
+input[type="submit"]:hover {
+    background-color: transparent;
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+    transition: all 0.5s ease-in-out;
+}
 /**************************************************End of Section Formatting***************************************************/
 
 /**************************************************Media Query Formatting***************************************************/
@@ -432,5 +537,20 @@ section {
         font-size: 1.2rem;
         line-height: 2rem;
         width: 100%;
+    }
+
+    /*Format contact section title*/
+    .contactSection h2 {
+        font-size: 3rem;
+    }
+
+    /*Format contact section p*/
+    .contactSection p {
+        font-size: 1rem;
+    }
+
+    /*Format contact form*/
+    form {
+        width: 85%;
     }
 }
