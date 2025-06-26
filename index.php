@@ -55,9 +55,12 @@
 </section>
 
 <!--Services Section-->
-<section id="services" class="alternatingTheme">
+<section id="services" class="alternatingTheme servicesSection">
     <div class="container">
-        <h2>template text</h2>
+        <h1>What I Offer?</h1>
+        <p>
+            Here are some of the services I offer:
+        </p>
     </div>
 </section>
 
@@ -71,7 +74,7 @@
 <!--Contact Us Section-->
 <section id="contact" class="alternatingTheme contactSection">
     <div class="container">
-        <h2>Get In Touch With <span>Me</span></h2>
+        <h1>Get In <span>Touch</span></h1>
         <p>
             Have any questions or inquiries? Don't hesitate to reach out to me.
         </p>
