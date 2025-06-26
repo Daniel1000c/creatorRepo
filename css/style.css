@@ -370,6 +370,14 @@ section {
 
 /**Contact Section Formatting**/
 
+/*Format contact section title*/
+.contactSection h1 {
+    font-family: var(--primary-nav-font);
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
 /*Format contact section span*/
 .contactSection span {
     color: var(--primary-color);
@@ -472,6 +480,26 @@ input[type="submit"]:hover {
     transition: all 0.5s ease-in-out;
 }
 
+
+/**Services Section Formatting**/
+
+/*Format services Section title*/
+.servicesSection h1{
+    font-family: var(--primary-nav-font);
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/*Format services Section text*/
+.servicesSection p{
+    font-family: var(--primary-nav-font);
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+}
 /**************************************************End of Section Formatting***************************************************/
 
 /**************************************************Footer Formatting***************************************************/
