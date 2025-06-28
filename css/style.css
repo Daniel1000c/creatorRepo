@@ -500,6 +500,65 @@ input[type="submit"]:hover {
     letter-spacing: 2px;
     line-height: 1.5rem;
 }
+
+/*Format service Card*/
+.serviceCard {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+/*Format service card icons*/
+.serviceCard i {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+    border: 5px solid var(--secondary-color);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/*Format service card title*/
+.serviceCard h3 {
+    font-family: var(--primary-nav-font);
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+/*Format service card text*/
+.serviceCard p {
+    font-family: var(--primary-nav-font);
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+}
+
+/*Format service card link*/
+.serviceCard a {
+    font-family: var(--primary-nav-font);
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: bolder;
+    border: 2px solid var(--secondary-color);
+    padding: 5px 10px;
+    border-radius: 100px;
+    transition: all 0.5s ease-in-out;
+}
+
+/*Format service card link hover*/
+.serviceCard a:hover {
+    background-color: var(--secondary-color);
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
 /**************************************************End of Section Formatting***************************************************/
 
 /**************************************************Footer Formatting***************************************************/
@@ -645,5 +704,41 @@ footer .socialIcon {
     .contactInformation iframe {
         width: 100%;
         height: 400px;
+    }
+
+    /*Format service card margins*/
+    .serviceCard {
+        margin: 0 20px;
+        width: 30%;
+        height: 300px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    /*Format service text hover*/
+    .serviceCard:hover p {
+        color: var(--secondary-color);
+        transform: scale(1.1);
+        font-weight: bolder;
+        transition: all 0.5s ease-in-out;
+    }
+
+    /*Create scale hover*/
+    .serviceCard:hover {
+        color: var(--secondary-color);
+        transform: scale(1.1);
+        background-color: #fff;
+        box-shadow: 0 0 10px var(--primary-color);
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+    }
+
+    /*Format service card icons*/
+    .serviceCard i {
+        font-size: 3rem;
+    }
+
+    /*Format service card title font size*/
+    .serviceCard h3 {
+        font-size: 1.5rem;
     }
 }
