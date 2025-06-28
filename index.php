@@ -61,6 +61,54 @@
         <p>
             Here are some of the services I offer:
         </p>
+
+        <!--Create service card container-->
+        <div class="row mt-5">
+
+            <!--Column Items-->
+
+            <!--Service Card-->
+            <div class="col-12 col-md-4 mb-4 serviceCard">
+                <div class="serviceCardInner">
+                    <div class="serviceIcon">
+                        <i class="bx bx-paint"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>
+                        I can help create appealing and user-friendly interfaces.
+                    </p>
+                    <a href="index.php#contact">See More</a>
+                </div>
+            </div>
+
+            <!--Service Card-->
+            <div class="col-12 col-md-4 mb-4 serviceCard">
+                <div class="serviceCardInner">
+                    <div class="serviceIcon">
+                        <i class="bx bx-devices"></i>
+                    </div>
+                    <h3>Responsive Web Design</h3>
+                    <p>
+                        I can help with making a website responsive.
+                    </p>
+                    <a href="index.php#contact">See More</a>
+                </div>
+            </div>
+
+            <!--Service Card-->
+            <div class="col-12 col-md-4 mb-4 serviceCard">
+                <div class="serviceCardInner">
+                    <div class="serviceIcon">
+                        <i class="bx bx-code-curly"></i>
+                    </div>
+                    <h3>User Interactivity</h3>
+                    <p>
+                        I can help make a website interactive with JavaScript.
+                    </p>
+                    <a href="index.php#contact">See More</a>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
