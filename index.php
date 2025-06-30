@@ -59,11 +59,11 @@
     <div class="container">
         <h1>What I Offer?</h1>
         <p>
-            Here are some of the services I offer:
+            Here are some of the services that I provide. I hope to add more services in the future when I have more experience.
         </p>
 
         <!--Create service card container-->
-        <div class="row mt-5">
+        <div class="row mt-5 serviceCardContainer">
 
             <!--Column Items-->
 
@@ -113,10 +113,78 @@
 </section>
 
 <!--Projects Section-->
-<section id="projects" class="alternatingTheme">
+<section id="projects" class="alternatingTheme projectsSection">
     <div class="container">
-        <h2>template text</h2>
-    </div>
+        <h1>My <span>Projects</span></h1>
+
+        <p>
+            Here are some of the projects that I have worked on.
+            I hope to add more projects in the future when I have gained more experience.
+        </p>
+
+        <!--Project Carousel-->
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                    <a href="https://daniel1000c.github.io/website-Portfolio/nonProfit/index.html" target="_blank">
+                        <img src="images/beautiful-pet-portrait-dog.jpg" class="d-block w-100" alt="Dog">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </a>     
+                </div>    
+
+                <div class="carousel-item">
+                    <a href="https://daniel1000c.github.io/website-Portfolio/nonProfit/index.html" target="_blank">
+                        <img src="images/beautiful-pet-portrait-dog.jpg" class="d-block w-100" alt="Dog">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </a>     
+                </div>   
+
+                <div class="carousel-item">
+                    <a href="https://daniel1000c.github.io/website-Portfolio/nonProfit/index.html" target="_blank">
+                        <img src="images/beautiful-pet-portrait-dog.jpg" class="d-block w-100" alt="Dog">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </a>     
+                </div>   
+                 
+                <div class="carousel-item">
+                    <a href="https://daniel1000c.github.io/website-Portfolio/nonProfit/index.html" target="_blank">
+                        <img src="images/beautiful-pet-portrait-dog.jpg" class="d-block w-100" alt="Dog">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </a>     
+                </div>    
+
+                
+
+            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
 </section>
 
 <!--Contact Us Section-->
