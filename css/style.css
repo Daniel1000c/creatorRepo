@@ -483,6 +483,11 @@ input[type="submit"]:hover {
 
 /**Services Section Formatting**/
 
+/*Format service card container*/
+.serviceCardContainer {
+    padding: 20px;
+}
+
 /*Format services Section title*/
 .servicesSection h1{
     font-family: var(--primary-nav-font);
@@ -558,6 +563,30 @@ input[type="submit"]:hover {
     background-color: var(--secondary-color);
     color: #fff;
     transition: all 0.5s ease-in-out;
+}
+
+/**Project Section Formatting**/
+
+/*Format project section title*/
+.projectsSection h1 {
+    font-family: var(--primary-nav-font);
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/*Format project span text*/
+.projectsSection span {
+    color: var(--secondary-color);
+}
+
+/*Format project text*/
+.projectsSection p {
+    font-family: var(--primary-nav-font);
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 2rem;
 }
 /**************************************************End of Section Formatting***************************************************/
 
@@ -740,5 +769,12 @@ footer .socialIcon {
     /*Format service card title font size*/
     .serviceCard h3 {
         font-size: 1.5rem;
+    }
+
+    /*Format project section text*/
+    .projectsSection p {
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 20px;
     }
 }
