@@ -3,7 +3,7 @@
 ?>
 
 <!--Home Section-->
-<section id="home" class="heroSection">
+<section id="home" class="heroSection" data-title="home">
     <div class="container">
         <h1>Hi, I'm <span>Daniel</span></h1>
         <p>Welcome to my Portfolio, where I showcase my skills and experience.</p>
@@ -16,7 +16,7 @@
 </section>
 
 <!--About Section-->
-<section id="about" class="alternatingTheme aboutSection">
+<section id="about" class="alternatingTheme aboutSection" data-title="about">
     <div class="container">
         <h6>About Me</h6>
         <h1>Get to Know <span>Me</span></h1>
@@ -55,7 +55,7 @@
 </section>
 
 <!--Services Section-->
-<section id="services" class="alternatingTheme servicesSection">
+<section id="services" class="alternatingTheme servicesSection" data-title="services">
     <div class="container">
         <h1>What I Offer?</h1>
         <p>
@@ -113,7 +113,7 @@
 </section>
 
 <!--Projects Section-->
-<section id="projects" class="alternatingTheme projectsSection">
+<section id="projects" class="alternatingTheme projectsSection" data-title="projects">
     <div class="container">
         <h1>My <span>Projects</span></h1>
 
@@ -129,51 +129,116 @@
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
             </div>
             <div class="carousel-inner">
                 
                 <div class="carousel-item active">
-                    <a href="https://daniel1000c.github.io/website-Portfolio/nonProfit/index.html" target="_blank">
-                        <img src="images/beautiful-pet-portrait-dog.jpg" class="d-block w-100" alt="Dog">
+                    <a href="https://daniel1000c.github.io/website-Portfolio/finalProject/index.html" target="_blank">
+                        <img src="images/browardVillasProject.png" class="d-block w-100" alt="Broward Villas: Clone Website">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h5>Broward Villas</h5>
+                            <p>First attempt at a clone website project.</p>
                         </div>
                     </a>     
                 </div>    
 
                 <div class="carousel-item">
                     <a href="https://daniel1000c.github.io/website-Portfolio/nonProfit/index.html" target="_blank">
-                        <img src="images/beautiful-pet-portrait-dog.jpg" class="d-block w-100" alt="Dog">
+                        <img src="images/newBrowardRescue.png" class="d-block w-100" alt="Broward Rescue">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h5>Broward Rescue</h5>
+                            <p>Non-profit pet shelter project.</p>
                         </div>
                     </a>     
                 </div>   
 
                 <div class="carousel-item">
-                    <a href="https://daniel1000c.github.io/website-Portfolio/nonProfit/index.html" target="_blank">
-                        <img src="images/beautiful-pet-portrait-dog.jpg" class="d-block w-100" alt="Dog">
+                    <a href="https://daniel1000c.github.io/website-Portfolio/jqueryProject/index.html" target="_blank">
+                        <img src="images/fitFocus.png" class="d-block w-100" alt="Fit Focus: Jquery Project">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h5>Fit Focus</h5>
+                            <p>First project created using Jquery.</p>
                         </div>
                     </a>     
                 </div>   
                  
                 <div class="carousel-item">
                     <a href="https://daniel1000c.github.io/website-Portfolio/nonProfit/index.html" target="_blank">
-                        <img src="images/beautiful-pet-portrait-dog.jpg" class="d-block w-100" alt="Dog">
+                        <img src="images/cloudWare.png" class="d-block w-100" alt="CloudWare: React Project">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h5>CloudWare</h5>
+                            <p>First project created using React.</p>
+                        </div>
+                    </a>     
+                </div>    
+
+                <div class="carousel-item">
+                    <a href="https://daniel1000c.github.io/JavaScriptAPI/formapi/formAPI.html" target="_blank">
+                        <img src="images/formAPI.png" class="d-block w-100" alt="Form API: JavaScript Project">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Form API</h5>
+                            <p>Project created using JavaScript by using form API.</p>
+                        </div>
+                    </a>     
+                </div>    
+
+                <div class="carousel-item">
+                    <a href="https://daniel1000c.github.io/JavaScriptAPI/weatherApp/index.html" target="_blank">
+                        <img src="images/weatherApp.png" class="d-block w-100" alt="Weather App: JavaScript Project">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Weather App</h5>
+                            <p>Project created using JavaScript to predict the weather.</p>
+                        </div>
+                    </a>     
+                </div>    
+
+                <div class="carousel-item">
+                    <a href="http://danielbuildsweb.com/hr25/" target="_blank">
+                        <img src="images/hrApplication.png" class="d-block w-100" alt="HR App: PHP Project">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>HR Application</h5>
+                            <p>Project created using PHP to create an HR application to add and delete employees.</p>
+                        </div>
+                    </a>     
+                </div>    
+
+                <div class="carousel-item">
+                    <a href="http://danielbuildsweb.com/crud25/" target="_blank">
+                        <img src="images/crudApplication.png" class="d-block w-100" alt="Crud Application: PHP Project">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Item Crud Application</h5>
+                            <p>Project created using PHP that helps to add, view and delete shopping items.</p>
+                        </div>
+                    </a>     
+                </div>    
+
+                <div class="carousel-item">
+                    <a href="http://danielbuildsweb.com/quizapp25/" target="_blank">
+                        <img src="images/quizapp.png" class="d-block w-100" alt="Quiz App: PHP Project">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Quiz App</h5>
+                            <p>Project created using PHP to create a quiz. You can delete, add, and view questions.</p>
+                        </div>
+                    </a>     
+                </div>
+
+                <div class="carousel-item">
+                    <a href="https://dev-equinox-industries.pantheonsite.io/" target="_blank">
+                        <img src="images/barbellEquinox.png" class="d-block w-100" alt="Barbell Equinox: Wordpress Group Project">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Barbell Equinox</h5>
+                            <p>Group project that was creating a fitness website using Wordpress.</p>
                         </div>
                     </a>     
                 </div>    
 
                 
-
             </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -188,7 +253,7 @@
 </section>
 
 <!--Contact Us Section-->
-<section id="contact" class="alternatingTheme contactSection">
+<section id="contact" class="alternatingTheme contactSection" data-title="contact">
     <div class="container">
         <h1>Get In <span>Touch</span></h1>
         <p>
