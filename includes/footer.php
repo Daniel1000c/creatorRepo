@@ -14,5 +14,6 @@
         </div>
         
     </footer>
+    <script src="scripts/script.js"></script><!--Link to scripts-->
 </body>
 </html>
