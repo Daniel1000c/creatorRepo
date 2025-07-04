@@ -44,7 +44,38 @@ html {
 
 /*Format header background*/
 header {
-    background-color: var(--primary-color)
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: var(--primary-color);
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+/*Change color of header when scrolling*/
+header.scrolled {
+    background-color: #fff;
+    opacity: 0.9;
+    color: var(--primary-color);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.5s ease-in-out;
+}
+
+/*Format nav links when scrolling*/
+header.scrolled .navbar-nav .nav-link {
+    color: var(--primary-color);
+    transition: 0.5s ease-in-out;
+}
+
+header.scrolled .navbar-brand {
+    color: var(--primary-color);
+    transition: 0.5s ease-in-out;
+}
+
+/*Format git hub button*/
+header.scrolled .iconContainer .btn-dark {
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    transition: 0.5s ease-in-out;
 }
 
 /*Navbar drop down formatting*/
@@ -162,6 +193,19 @@ header {
 section {
     padding: 50px 0;
     text-align: center;
+}
+
+section .container {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+/*Format section visibility*/
+section .container.visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.2s;
 }
 
 /*Alternating section background formatting*/
@@ -663,15 +707,7 @@ footer a:hover {
 }
 
 /*Format footer links*/
-footer .footerLinks {
-    text-decoration: none;
-    color: #fff;
-    font-family: var(--primary-nav-font);
-    font-size: 0.8rem;
-    letter-spacing: 2px;
-    margin: 0 10px;
-    transition: all 0.5s ease-in-out;
-}
+
 footer .socialIcon {
    border-radius: 50%;
    color: #fff;
