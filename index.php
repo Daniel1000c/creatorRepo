@@ -50,7 +50,79 @@
                 </ul>
            </div>
         </div>
-    
+
+        <h1>My <span>Skills</span></h1>
+        
+        <!--Skills row container-->
+        <div class="row mt-5 skillContainer">
+
+            <!--Column Items-->
+
+            <!--Skill Card-->
+            <div class="col-12 col-md-4 mb-4 skillCard">
+                <i class="bx bxl-html5"></i>
+                <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped text-bg-success" style="width: 80%">80%</div>
+                </div>
+            </div>
+            <!--Skill Card-->
+            <div class="col-12 col-md-4 mb-4 skillCard">
+                <i class="bx bxl-css3"></i>
+                <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped text-bg-success" style="width: 80%">80%</div>
+                </div>
+            </div>
+            <!--Skill Card-->
+            <div class="col-12 col-md-4 mb-4 skillCard">
+                <i class="bx bxl-javascript"></i>
+                <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped text-bg-success" style="width: 60%">60%</div>
+                </div>
+            </div>
+            <!--Skill Card-->
+            <div class="col-12 col-md-4 mb-4 skillCard">
+                <i class="bx bxl-php"></i>
+                <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped text-bg-success" style="width: 50%">50%</div>
+                </div>
+            </div>
+            <!--Skill Card-->
+            <div class="col-12 col-md-4 mb-4 skillCard">
+                <i class="bx bxl-bootstrap"></i>
+                <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped text-bg-success" style="width: 70%">70%</div>
+                </div>
+            </div>
+            <!--Skill Card-->
+            <div class="col-12 col-md-4 mb-4 skillCard">
+                <i class="bx bxl-wordpress"></i>
+                <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped text-bg-success" style="width: 75%">75%</div>
+                </div>
+            </div>
+            <!--Skill Card-->
+            <div class="col-12 col-md-4 mb-4 skillCard">
+                <i class="bx bx-data"></i>
+                <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped text-bg-success" style="width: 65%">65%</div>
+                </div>
+            </div>
+            <!--Skill Card-->
+            <div class="col-12 col-md-4 mb-4 skillCard">
+                <i class="bx bxl-react"></i>
+                <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped text-bg-success" style="width: 50%">50%</div>
+                </div>
+            </div>
+            <!--Skill Card-->
+            <div class="col-12 col-md-4 mb-4 skillCard">
+                <i class="bx bxl-github"></i>
+                <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped text-bg-success" style="width: 80%">80%</div>
+                </div>
+            </div>
+
+        </div>
     </div>
 </section>
 
