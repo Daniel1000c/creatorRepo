@@ -60,3 +60,30 @@ const scrollObserver = new IntersectionObserver((entries, observer) => {
 scrollSections.forEach(container => {
     scrollObserver.observe(container);
 });
+
+//Create active links
+const idSection = document.querySelectorAll("section[id]");
+const navLinks = document.querySelectorAll(".nav-link");
+
+//Create event listener
+window.addEventListener("scroll", () => {
+   let current = "";
+
+   idSection.forEach((section) => {
+       const sectionTop = section.offsetTop - 50;
+       if(pageYOffset >= sectionTop) {
+           current = section.getAttribute("id");
+       }
+   });
+
+    navLinks.forEach((link) => {
+        link.classList.remove("active");
+
+        // Extract the hash from the href, e.g., "#about" from "index.php#about"
+        const linkTarget = link.getAttribute("href").split("#")[1];
+
+        if (linkTarget === current) {
+            link.classList.add("active");
+        }
+    });
+});
