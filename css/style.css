@@ -333,6 +333,7 @@ section .container.visible {
     font-size: 2rem;
     font-weight: bold;
     letter-spacing: 2px;
+    margin: 20px 0;
 }
 
 .aboutSection h1 span {
@@ -410,6 +411,16 @@ section .container.visible {
     font-weight: bold;
     display: inline-block;
     width: 1em;
+}
+
+/*Format creator skills*/
+.skillContainer .skillCard i {
+    font-size: 3rem;
+    color: #6cc644;
+    margin-bottom: 20px;
+    border: 4px solid #6cc644;
+    border-radius: 50%;
+    padding: 10px;
 }
 
 /**Contact Section Formatting**/
