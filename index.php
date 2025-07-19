@@ -357,12 +357,15 @@
                 <form action="contactForm.php" method="post" name="contactForm" id="contactForm" autocomplete="off">
 
                     <!--Name Input-->
+                    <label for="fullName">Full Name:</label>
                     <input type="text" name="fullName" id="fullName" placeholder="Full Name" class="form-control" autocomplete="off"><br>
 
                     <!--Email Input-->
+                    <label for="email">Email:</label>
                     <input type="email" name="email" id="email" placeholder="Email Address" class="form-control" autocomplete="off"><br>
 
                     <!--Message Input-->
+                    <label for="client_message">Message:</label>
                     <textarea name="client_message" id="client_message" placeholder="Your Message" rows="5" class="form-control"></textarea><br>
 
                     <input type="submit" value="Send Message" id="submitButton">
