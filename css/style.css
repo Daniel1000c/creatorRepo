@@ -195,19 +195,6 @@ section {
     text-align: center;
 }
 
-section .container {
-    opacity: 0;
-    transform: translateY(50px);
-    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
-}
-
-/*Format section visibility*/
-section .container.visible {
-    opacity: 1;
-    transform: translateY(0);
-    transition-delay: 0.2s;
-}
-
 /*Alternating section background formatting*/
 
 /*Even Sections*/
@@ -726,6 +713,11 @@ footer .socialIcon {
    margin: 0 10px;
    font-size: 2rem;
    transition: all 0.5s ease-in-out;
+}
+
+/*Format status message span*/
+#statusMessage span{
+    color: #ff0000;
 }
 /**************************************************End of Footer Formatting***************************************************/
 
