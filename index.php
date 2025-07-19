@@ -357,17 +357,20 @@
                 <form action="contactForm.php" method="post" name="contactForm" id="contactForm" autocomplete="off">
 
                     <!--Name Input-->
-                    <input type="text" name="name" id="name" placeholder="Full Name" class="form-control"><br>
+                    <input type="text" name="fullName" id="fullName" placeholder="Full Name" class="form-control" autocomplete="off"><br>
 
                     <!--Email Input-->
-                    <input type="email" name="email" id="email" placeholder="Email Address" class="form-control"><br>
+                    <input type="email" name="email" id="email" placeholder="Email Address" class="form-control" autocomplete="off"><br>
 
                     <!--Message Input-->
-                    <textarea name="message" id="message" placeholder="Your Message" rows="5" class="form-control"></textarea><br>
+                    <textarea name="client_message" id="client_message" placeholder="Your Message" rows="5" class="form-control"></textarea><br>
 
-                    <input type="submit" value="Send Message">
-                    
+                    <input type="submit" value="Send Message" id="submitButton">
+
+                    <div id="statusMessage" class="mt-3"></div>
                 </form>
+
+                
            </div>
         </div>
     </div>
