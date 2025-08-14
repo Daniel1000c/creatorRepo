@@ -1,17 +1,7 @@
 </main>
     <footer>
-        <div class="container">
-            
-            <!--Create Footer Links-->
-            <a href="https://www.linkedin.com/in/daniel-velez-b17748286/" target="_blank" class="socialIcon" aria-label="LinkedIn Profile Daniel Velez"><i class="bx bxl-linkedin-square"></i></a>
-            <a href="mailto:velezdaniel6162@gmail.com" class="socialIcon" aria-label="Gmail Daniel Velez"><i class="bx bxl-gmail"></i></a>
-            <a href="https://codepen.io/nliuknwq-the-builder" target="_blank" class="socialIcon" aria-label="CodePen Daniel Velez"><i class="bx bxl-codepen"></i></a>
 
-            <hr>
-            <p>Copyright &copy; <?php echo date("Y"); ?> Daniel Velez</p>    
-        </div>
-        
     </footer>
-    <script src="scripts/script.js"></script><!--Link to scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
