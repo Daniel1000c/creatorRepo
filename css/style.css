@@ -4,4 +4,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/*Body Formatting*/
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/seaNightLandscape.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 /**********************************End of General Formatting***********************************/
