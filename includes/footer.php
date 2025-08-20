@@ -14,22 +14,19 @@
                     <h5 class="text-uppercase mb-4 font-weight-bold">SiteMap</h5>
 
                     <p>
-                        <a href="#" style="text-decoration: none;">Products</a>
+                        <a href="#" style="text-decoration: none;">Home</a>
                     </p>
                     <p>
-                        <a href="#" style="text-decoration: none;">Products</a>
+                        <a href="#" style="text-decoration: none;">About</a>
                     </p>
                     <p>
-                        <a href="#" style="text-decoration: none;">Products</a>
+                        <a href="#" style="text-decoration: none;">Services</a>
                     </p>
                     <p>
-                        <a href="#" style="text-decoration: none;">Products</a>
+                        <a href="#" style="text-decoration: none;">Portfolio</a>
                     </p>
                     <p>
-                        <a href="#" style="text-decoration: none;">Products</a>
-                    </p>
-                    <p>
-                        <a href="#" style="text-decoration: none;">Products</a>
+                        <a href="#" style="text-decoration: none;">Contact</a>
                     </p>
                 </div>
 
@@ -37,16 +34,13 @@
                     <h5 class="text-uppercase mb-4 font-weight-bold">Useful links</h5>
 
                     <p>
-                        <a href="#" style="text-decoration: none;">Your Account</a>
+                        <a href="#" style="text-decoration: none;">About Me</a>
                     </p>
                     <p>
-                        <a href="#" style="text-decoration: none;">Become an Affiliate</a>
+                        <a href="#" style="text-decoration: none;">Privacy Policy</a>
                     </p>
                     <p>
-                        <a href="#" style="text-decoration: none;">Shipping Rates</a>
-                    </p>
-                    <p>
-                        <a href="#" style="text-decoration: none;">Help</a>
+                        <a href="#" style="text-decoration: none;">Terms & Conditions</a>
                     </p>
                 </div>
 
@@ -72,7 +66,7 @@
                 <div class="col-md-7 col-lg-8">
                     <p>Copyright ©2023 All rights reserved by:
                         <a href="#" style="text-decoration: none;">
-                            <strong>Company Name</strong>
+                            <strong>Daniel Velez</strong>
                         </a>
                     </p>
                 </div>
@@ -81,16 +75,16 @@
                     <div class="text-center text-md-right">
                         <ul class="list-unstyled list-inline">
                             <li class="list-inline-item">
-                                <a href="#" class="btn-floating btn-sm" style="font-size: 23px;"><i><i class="fab fa-facebook-f"></i></i></a>
+                                <a href="#" rel="noopener noreferrer" class="btn-floating btn-sm" style="font-size: 23px;"><i><i class="fab fa-github"></i></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#" class="btn-floating btn-sm" style="font-size: 23px;"><i><i class="fab fa-twitter"></i></i></a>
+                                <a href="#" rel="noopener noreferrer" class="btn-floating btn-sm" style="font-size: 23px;"><i><i class="fab fa-linkedin"></i></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#" class="btn-floating btn-sm" style="font-size: 23px;"><i><i class="fab fa-instagram"></i></i></a>
+                                <a href="#" rel="noopener noreferrer" class="btn-floating btn-sm" style="font-size: 23px;"><i><i class="fab fa-codepen"></i></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#" class="btn-floating btn-sm" style="font-size: 23px;"><i><i class="fab fa-youtube"></i></i></a>
+                                <a href="#" rel="noopener noreferrer" class="btn-floating btn-sm" style="font-size: 23px;"><i><i class="fab fa-google"></i></i></a>
                             </li>
                         </ul>
                     </div>
