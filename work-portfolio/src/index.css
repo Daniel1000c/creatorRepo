@@ -3,3 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header,
+footer {
+  background-color: #3b6d97;
+}
