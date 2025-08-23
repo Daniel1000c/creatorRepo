@@ -1,13 +1,13 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navigation from "./components/navbar";
+import Header from "./components/header"; //Header component
+import Footer from "./components/footer"; //Footer component
 
 function App() {
   return (
     <>
-      <Navigation />
-      <p>Hello World</p>
-      <p>Test</p>
+      <Header />
+      <Footer />
     </>
   );
 }
