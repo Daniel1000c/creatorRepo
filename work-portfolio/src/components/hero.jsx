@@ -1,9 +1,5 @@
 function Hero() {
-  return (
-    <section>
-      <h2>Hero</h2>
-    </section>
-  );
+  return <section className="position-relative overflow-hidden"></section>;
 }
 
 export default Hero;
