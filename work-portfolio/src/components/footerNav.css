@@ -1,0 +1,22 @@
+/*Format navigation links*/
+.socialContainer a {
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 0.2rem;
+  margin: 0.2rem;
+  color: white;
+  font-size: 1.3rem;
+  transition: all 0.5s ease-in-out;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Format footer nav hover*/
+.socialContainer a:hover {
+  transform: scale(1.1);
+  color: #e8b968;
+  border-color: #e8b968;
+}
