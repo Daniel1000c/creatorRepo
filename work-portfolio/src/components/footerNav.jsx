@@ -3,6 +3,8 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { FaCodepen } from "react-icons/fa";
+
+import "./footerNav.css"; //Custom css
 function FooterNavigation() {
   return (
     <div className="socialContainer">
