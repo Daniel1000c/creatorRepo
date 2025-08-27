@@ -1,3 +1,6 @@
+//Custom css
+import "./navbar.css";
+
 //React icons
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
@@ -6,13 +9,17 @@ import { IoIosHome } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
 import { CgProfile } from "react-icons/cg";
 import { FaBriefcase } from "react-icons/fa";
+import { FaPenFancy } from "react-icons/fa";
 
 function Navigation() {
   return (
     <Navbar expand="lg">
       <Container>
         <Navbar.Brand href="#home">Daniel Velez</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          className="toggle-menu"
+        />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="#home" className="d-flex align-items-center">
@@ -26,6 +33,14 @@ function Navigation() {
             <Nav.Link href="#portfolio" className="d-flex align-items-center">
               <FaBriefcase className="me-2" />
               Portfolio
+            </Nav.Link>
+            <Nav.Link
+              href="src/assets/images/Daniel_Velez_Resume.pdf"
+              download={true}
+              className="d-flex align-items-center"
+            >
+              <FaPenFancy className="me-2" />
+              Resume
             </Nav.Link>
             <Nav.Link href="#contact" className="d-flex align-items-center">
               <FaPhoneAlt className="me-2" />
