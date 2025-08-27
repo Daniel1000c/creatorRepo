@@ -1,0 +1,35 @@
+/*Format navbar brand*/
+.navbar-brand {
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-style: italic;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+}
+
+/*Change hamburger menu icon color*/
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.toggle-menu {
+  border-color: white;
+}
+
+/*Format hover*/
+.toggle-menu:hover {
+  border-color: white;
+}
+
+/*Format active*/
+.toggle-menu:active {
+  border-color: white;
+}
+
+/*Format focus*/
+.toggle-menu:focus {
+  /*White shadow*/
+  box-shadow: 0 0 0 0.25rem rgb(255, 255, 255);
+}
