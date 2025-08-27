@@ -1,10 +1,19 @@
+/*General formatting*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--text-font);
+}
+
+/*Root Formatting*/
+:root {
+  --primary-color: #6874e8;
+  --text-color: #fff;
+  --text-font: "Poppins", sans-serif;
 }
 
 header,
 footer {
-  background-color: #3b6d97;
+  background-color: var(--primary-color);
 }
