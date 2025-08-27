@@ -6,6 +6,12 @@
   font-family: var(--text-font);
 }
 
+/*Format section padding*/
+section {
+  padding: 30px;
+  text-align: center;
+}
+
 /*Root Formatting*/
 :root {
   --primary-color: #6874e8;
@@ -16,4 +22,25 @@
 header,
 footer {
   background-color: var(--primary-color);
+}
+
+/*Format hr*/
+hr {
+  border: none;
+  height: 8px;
+  background-color: var(--text-color);
+  border-radius: 20px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/*Format footer text*/
+footer p {
+  color: var(--text-color);
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
