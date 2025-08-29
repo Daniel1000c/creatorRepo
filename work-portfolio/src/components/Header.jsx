@@ -1,6 +1,12 @@
+import { FaHome } from "react-icons/fa"; // Home icon
+import { FaRegUser } from "react-icons/fa"; //User icon
+import { FaBriefcase } from "react-icons/fa6"; // Briefcase icon
+import { FaWpforms } from "react-icons/fa"; // Form icon
+import { FaPhoneAlt } from "react-icons/fa"; // Phone icon
+
 function Header() {
   return (
-    <header className="bg-white">
+    <header>
       <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
         <a className="block text-teal-600" href="#">
           <span className="sr-only">Home</span>
@@ -22,61 +28,56 @@ function Header() {
             <ul className="flex items-center gap-6 text-sm">
               <li>
                 <a
-                  className="text-gray-500 transition hover:text-gray-500/75"
+                  className="flex items-center gap-2 text-gray-500 transition hover:text-gray-500/75"
                   href="#"
                 >
                   {" "}
-                  About{" "}
+                  <FaHome className="h-5 w-5" />
+                  Home{" "}
                 </a>
               </li>
 
               <li>
                 <a
-                  className="text-gray-500 transition hover:text-gray-500/75"
+                  className="flex items-center gap-2 text-gray-500 transition hover:text-gray-500/75"
                   href="#"
                 >
                   {" "}
-                  Careers{" "}
+                  <FaRegUser className="h-5 w-5" />
+                  About Me{" "}
                 </a>
               </li>
 
               <li>
                 <a
-                  className="text-gray-500 transition hover:text-gray-500/75"
+                  className="flex items-center gap-2 text-gray-500 transition hover:text-gray-500/75"
                   href="#"
                 >
                   {" "}
-                  History{" "}
-                </a>
-              </li>
-
-              <li>
-                <a
-                  className="text-gray-500 transition hover:text-gray-500/75"
-                  href="#"
-                >
-                  {" "}
-                  Services{" "}
-                </a>
-              </li>
-
-              <li>
-                <a
-                  className="text-gray-500 transition hover:text-gray-500/75"
-                  href="#"
-                >
-                  {" "}
+                  <FaBriefcase className="h-5 w-5" />
                   Projects{" "}
                 </a>
               </li>
 
               <li>
                 <a
-                  className="text-gray-500 transition hover:text-gray-500/75"
+                  className="flex items-center gap-2 text-gray-500 transition hover:text-gray-500/75"
                   href="#"
                 >
                   {" "}
-                  Blog{" "}
+                  <FaWpforms className="h-5 w-5" />
+                  Resume{" "}
+                </a>
+              </li>
+
+              <li>
+                <a
+                  className="flex items-center gap-2 text-gray-500 transition hover:text-gray-500/75"
+                  href="#"
+                >
+                  {" "}
+                  <FaPhoneAlt className="h-5 w-5" />
+                  Contact{" "}
                 </a>
               </li>
             </ul>
@@ -84,13 +85,6 @@ function Header() {
 
           <div className="flex items-center gap-4">
             <div className="sm:flex sm:gap-4">
-              <a
-                className="block rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700"
-                href="#"
-              >
-                Login
-              </a>
-
               <a
                 className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75 sm:block"
                 href="#"
