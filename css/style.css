@@ -10,6 +10,53 @@
 
 /***************HEADER FORMATTING****************/
 
+/***************SECTION FORMATTING****************/
+/*Format section padding*/
+section {
+  padding: 30px;
+  text-align: center;
+}
+
+/***CONTACT SECTION***/
+
+/*Format contact information title*/
+.contactInfo h3,
+.contactInfo p {
+  text-align: left;
+}
+
+/*Format contact section map*/
+.contactInfo iframe {
+  border-radius: 20px;
+  width: 100%;
+  height: 300px;
+}
+
+.contactInfo .mapContainer {
+  text-align: left;
+}
+
+/*Format form container*/
+.formContainer form {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #aaa;
+}
+
+/*Format contact form container*/
+.formContainer {
+  text-align: left;
+}
+
+.formContainer button {
+  padding: 0 25px;
+  border: none;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+}
+/***************SECTION FORMATTING****************/
+
 /***************FOOTER FORMATTING****************/
 
 /*Format footer social container*/
