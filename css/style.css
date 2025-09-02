@@ -9,3 +9,67 @@
 /***************HEADER FORMATTING****************/
 
 /***************HEADER FORMATTING****************/
+
+/***************FOOTER FORMATTING****************/
+
+/*Format footer social container*/
+footer .socialContainer {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+/*Format social icon links*/
+footer .socialContainer a {
+  font-size: 1.3rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 8px;
+  opacity: 0.7;
+  transition: opacity 0.5s ease 0s, transform 0.5s ease 0s;
+}
+
+footer .socialContainer a:hover {
+  opacity: 1;
+  transform: scale(1.3);
+}
+
+/*Format footer ul list*/
+footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style-type: none;
+  line-height: 1.6;
+  font-size: 18px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.5s ease;
+}
+
+footer ul li a:hover {
+  opacity: 1;
+}
+
+/*Format footer copyright*/
+footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+}
+
+/***************FOOTER FORMATTING****************/
