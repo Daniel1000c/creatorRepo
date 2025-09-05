@@ -7,6 +7,9 @@
 /***************GENERAL FORMATTING****************/
 
 /***************HEADER FORMATTING****************/
+header {
+  padding: 12px;
+}
 
 /***************HEADER FORMATTING****************/
 
@@ -22,7 +25,7 @@ section {
 .socialContainer {
   text-align: center;
   margin-top: 16px;
-  padding-bottom: 25px;
+  padding-bottom: 16px;
 }
 
 /*Format social icon links*/
