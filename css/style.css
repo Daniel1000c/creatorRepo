@@ -71,6 +71,7 @@ section {
 
 /*Format form container*/
 .formContainer form {
+  max-width: 450px;
   padding: 20px;
   border-radius: 20px;
   background-color: #aaa;
