@@ -1,0 +1,29 @@
+/************FONT FACE FORMATTING************/
+/*Roboto*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+/************FONT FACE FORMATTING************/
+/************GENERAL FORMATTING************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Root Formatting*/
+:root {
+  --base-text-font: "Roboto", sans-serif;
+}
+
+/*Body Formatting*/
+body {
+  font-family: var(--base-text-font);
+}
+/************GENERAL FORMATTING************/
+/************HEADER FORMATTING************/
+header {
+  background-color: red;
+  padding: 12px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+/************HEADER FORMATTING************/
