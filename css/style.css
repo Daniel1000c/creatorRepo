@@ -1,16 +1,67 @@
+/***************FONT FACE FORMATTING****************/
+
+/*Roboto font*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*Montserrat font*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*Raleway font*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+/***************FONT FACE FORMATTING****************/
 /***************GENERAL FORMATTING****************/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/*Format root element*/
+:root {
+  --base-body-font: "Roboto", sans-serif;
+  --section-title-font: "Montserrat", sans-serif;
+  --subsection-title-font: "Raleway", sans-serif;
+}
+
+/*Format body*/
+body {
+  font-family: var(--base-body-font);
+}
+
+/*Format h2 tags*/
+h2 {
+  font-family: var(--section-title-font);
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+  letter-spacing: 2px;
+}
+
+/*Format h3 tags*/
+h3 {
+  font-family: var(--subsection-title-font);
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  letter-spacing: 2px;
+  text-align: left;
+  padding: 0 20px;
+}
+
+p {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
 /***************GENERAL FORMATTING****************/
 
 /***************HEADER FORMATTING****************/
 header {
   padding: 12px;
 }
-
 /***************HEADER FORMATTING****************/
 
 /***************SECTION FORMATTING****************/
@@ -48,7 +99,6 @@ section {
   transform: scale(1.3);
 }
 
-/***CONTACT SECTION***/
 /**Hero Section**/
 
 /*Format Img template*/
@@ -63,6 +113,28 @@ section {
   margin-left: auto;
   margin-right: auto;
 }
+
+/**ABOUT SECTION**/
+
+/*Format about info container*/
+.aboutInfo {
+  background-color: red;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 500px;
+  -webkit-border-radius: 0px 40px 0px 40px;
+  -moz-border-radius: 0px 40px 0px 40px;
+  border-radius: 0px 40px 0px 40px;
+}
+
+/*Format about description*/
+.aboutDescription {
+  padding: 20px;
+  text-align: left;
+}
+
+/***CONTACT SECTION***/
+
 /*Format contact information title*/
 .contactInfo h3,
 .contactInfo p {
