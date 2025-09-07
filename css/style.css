@@ -1,6 +1,9 @@
 /************FONT FACE FORMATTING************/
 /*Roboto*/
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*Poppins*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /************FONT FACE FORMATTING************/
 /************GENERAL FORMATTING************/
 * {
@@ -12,6 +15,7 @@
 /*Root Formatting*/
 :root {
   --base-text-font: "Roboto", sans-serif;
+  --header-text-font: "Poppins", sans-serif;
 }
 
 /*Body Formatting*/
@@ -21,9 +25,40 @@ body {
 /************GENERAL FORMATTING************/
 /************HEADER FORMATTING************/
 header {
+  font-family: var(--header-text-font);
   background-color: red;
   padding: 12px;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
 }
-/************HEADER FORMATTING************/
+
+/*Format navbar brand*/
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+/************SECTION FORMATTING************/
+/*Format curved section*/
+.spikes {
+  position: relative;
+  background: #2c3e50;
+  height: 50vh;
+}
+
+.spikes::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: -0%;
+  top: 100%;
+  z-index: 10;
+  display: block;
+  height: 50px;
+  background-size: 50px 100%;
+  background-image: linear-gradient(135deg, #2c3e50 25%, transparent 25%),
+    linear-gradient(225deg, #2c3e50 25%, transparent 25%);
+  background-position: 0 0;
+}
+/************SECTION FORMATTING************/
