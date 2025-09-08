@@ -64,6 +64,8 @@ header {
 .navbar-brand:hover {
   color: #00ffc6;
   text-shadow: #00ffc6 0px 0px 10px;
+  font-weight: bolder;
+  letter-spacing: 2px;
 }
 
 /*Format nav link hover*/
@@ -76,6 +78,16 @@ header {
   transform: scale(1.2);
   color: #00ffc6;
   text-shadow: #00ffc6 0px 0px 10px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+/*Format active link*/
+.navbar-nav .nav-link.active {
+  color: #00ffc6;
+  text-shadow: #00ffc6 0px 0px 10px;
+  font-weight: bolder;
+  letter-spacing: 2px;
 }
 /************HEADER FORMATTING************/
 
