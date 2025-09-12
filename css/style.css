@@ -69,6 +69,29 @@ header {
   animation: fadeDown 0.8s ease;
 }
 
+/*Format navbar burger icon*/
+/* Change the navbar toggler icon to white */
+.navbar-toggler-icon {
+  background-image: none; /* Remove the default background image */
+}
+
+.navbar-toggler-icon::before {
+  content: "\2630"; /* Unicode character for hamburger icon */
+  font-size: 30px;
+  color: white; /* Set the color of the icon to white */
+  line-height: 1;
+}
+
+/*Turn off menu focus*/
+.navbar-toggler:focus {
+  box-shadow: #fff 0px 0px 10px;
+}
+
+/*Change menu border color*/
+.navbar-toggler {
+  border-color: white;
+}
+
 /*Format navbar brand*/
 .navbar-brand {
   font-weight: 700;
