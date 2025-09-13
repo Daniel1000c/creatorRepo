@@ -209,8 +209,19 @@ section h2 {
 }
 
 /*Format progress container headers*/
-.progressContainer h5 {
+.progressContainer i {
   color: white;
+  font-size: 2rem;
+}
+
+/*Format progress bar on hover*/
+.progressContainer {
+  transition: 0.5s ease;
+}
+
+/*Format progress bar */
+.progress {
+  border-radius: 100px;
 }
 
 /***CONTACT SECTION***/
