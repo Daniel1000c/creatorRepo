@@ -23,6 +23,7 @@
     transform: translateY(0);
   }
 }
+
 /************KEY FRAME FORMATTING************/
 
 /************GENERAL FORMATTING************/
@@ -212,6 +213,8 @@ section h2 {
 .progressContainer i {
   color: white;
   font-size: 2rem;
+  margin-bottom: 10px;
+  background-color: black;
 }
 
 /*Format progress bar on hover*/
@@ -222,6 +225,72 @@ section h2 {
 /*Format progress bar */
 .progress {
   border-radius: 100px;
+  background-color: #000;
+  box-shadow: 0px 0px 10px #000;
+}
+
+/*Format bg-info outline*/
+.progress .bg-info {
+  border: 2px solid #00ffc6;
+  box-shadow: 0px 0px 10px #00ffc6;
+  border-radius: 100px;
+}
+
+/*Format progress bar coding language icons*/
+.progressContainer .bxl-html5 {
+  color: #e34c26;
+  border: 2px solid #e34c26;
+  box-shadow: 0px 0px 10px #e34c26;
+}
+.progressContainer .bxl-css3 {
+  color: #1572b6;
+  border: 2px solid #1572b6;
+  box-shadow: 0px 0px 10px #1572b6;
+}
+.progressContainer .bxl-javascript {
+  color: #f7df1e;
+  border: 2px solid #f7df1e;
+  box-shadow: 0px 0px 10px #f7df1e;
+}
+.progressContainer .bxl-react {
+  color: #61dbfb;
+  border: 2px solid #61dbfb;
+  box-shadow: 0px 0px 10px #61dbfb;
+}
+.progressContainer .bxs-data {
+  color: #e6b91e;
+  border: 2px solid #e6b91e;
+  box-shadow: 0px 0px 10px #e6b91e;
+}
+.progressContainer .bxl-php {
+  color: #777bb3;
+  border: 2px solid #777bb3;
+  box-shadow: 0px 0px 10px #777bb3;
+}
+.progressContainer .bxl-git {
+  color: #f1502f;
+  border: 2px solid #f1502f;
+  box-shadow: 0px 0px 10px #f1502f;
+}
+.progressContainer .bxl-sql {
+  color: #e6b91e;
+  border: 2px solid #e6b91e;
+  box-shadow: 0px 0px 10px #e6b91e;
+}
+.progressContainer .bxl-postgresql {
+  color: #336791;
+  border: 2px solid #336791;
+  box-shadow: 0px 0px 10px #336791;
+}
+.progressContainer .bxl-wordpress {
+  color: #21759b;
+  border: 2px solid #21759b;
+  box-shadow: 0px 0px 10px #21759b;
+}
+.progressContainer .bxl-bootstrap {
+  color: #563d7c;
+  border: 2px solid #563d7c;
+  box-shadow: 0px 0px 10px #563d7c;
 }
 
 /***CONTACT SECTION***/
