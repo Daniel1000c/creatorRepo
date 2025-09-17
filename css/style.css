@@ -140,11 +140,18 @@ section {
 }
 
 /*Format section header text*/
-.sectionHeader p {
+section:nth-of-type(odd) .sectionHeader p {
   font-family: var(--base-text-font);
   font-weight: 600;
   letter-spacing: 2px;
   color: #fff;
+}
+
+section:nth-of-type(even) .sectionHeader p {
+  font-family: var(--base-text-font);
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #333333;
 }
 
 /*Format section header colors*/
