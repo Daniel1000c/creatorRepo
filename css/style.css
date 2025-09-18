@@ -69,6 +69,7 @@ header {
   font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-style: italic;
 }
 
 /*Format navlink margins*/
@@ -76,4 +77,37 @@ header {
   margin-right: 40px;
   font-family: var(--nav-link-font);
   font-weight: 700px;
+}
+
+/* ==========================================================================
+   FOOTER FORMATTING
+   ========================================================================== */
+
+/*Format footer container*/
+.footer {
+  padding: 10px;
+}
+
+/*Format footer content container*/
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  margin: 10px 0;
+}
+
+/*Format social media container*/
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+/*Format social media icons*/
+.footer-links i {
+  font-size: 1.5rem;
+}
+
+/*Format footer bottom text*/
+.footer-bottom-txt {
+  text-align: center;
 }
