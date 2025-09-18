@@ -13,6 +13,9 @@
 /*Lato*/
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
+/*Varela Round*/
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
 /* ==========================================================================
    KEY FRAME ANIMATIONS
    ========================================================================== */
@@ -33,6 +36,7 @@
   --header-text-font: "Poppins", sans-serif;
   --section-text-font: "Montserrat", sans-serif;
   --card-title-font: "Lato", sans-serif;
+  --nav-link-font: "Varela Round", sans-serif;
 }
 
 /*Body Formatting*/
@@ -58,7 +62,18 @@ header {
   padding: 10px;
 }
 
+/*Format header logo*/
+.header-logo {
+  font-family: var(--header-text-font);
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
 /*Format navlink margins*/
 .nav-link {
   margin-right: 40px;
+  font-family: var(--nav-link-font);
+  font-weight: 700px;
 }
