@@ -47,3 +47,18 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
+/* ==========================================================================
+   HEADER STYLING
+   ========================================================================== */
+
+/*Format header background*/
+header {
+  background-color: red;
+  padding: 15px;
+}
+
+/*Format navlink margins*/
+.nav-link {
+  margin-right: 40px;
+}
