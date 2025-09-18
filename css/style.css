@@ -111,3 +111,17 @@ header {
 .footer-bottom-txt {
   text-align: center;
 }
+
+/* ==========================================================================
+   MEDIA QUERIES
+   ========================================================================== */
+
+/*Small Devices*/
+@media screen and (max-width: 768px) {
+  /*Format footer content orientation*/
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+}
