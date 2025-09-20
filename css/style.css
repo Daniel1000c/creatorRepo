@@ -79,7 +79,7 @@ h2 {
 
 /*Format header background*/
 header {
-  background-color: red;
+  background-color: #273469;
   padding: 10px;
 }
 
@@ -109,12 +109,39 @@ header {
   background-image: url(../images/starryBackground.png);
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0.8;
 }
 
+/*Format button container*/
+.btnContainer {
+  display: flex;
+  gap: 20px;
+}
+
+/*Format button links*/
+.ctaBtn {
+  background-color: red;
+  display: inline-block;
+  width: 140px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+}
+
+/*Format second cta to have no background*/
+.ctaBtn:nth-child(2) {
+  background-color: transparent;
+  border: 2px solid red;
+}
 /*Format card body*/
 .card {
   border-radius: 15px;
