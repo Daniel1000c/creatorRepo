@@ -52,6 +52,14 @@ h2 {
   letter-spacing: 2px;
 }
 
+/*Format section header height*/
+.section-header {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* ==========================================================================
    HEADER STYLING
    ========================================================================== */
@@ -77,6 +85,21 @@ header {
   margin-right: 40px;
   font-family: var(--nav-link-font);
   font-weight: 700px;
+}
+
+/* ==========================================================================
+   INDEX PAGE
+   ========================================================================== */
+
+/*Format hero section*/
+.hero-section {
+  background-image: url(../images/starryBackground.png);
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ==========================================================================
