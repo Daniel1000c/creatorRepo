@@ -37,6 +37,7 @@
   --section-text-font: "Montserrat", sans-serif;
   --card-title-font: "Lato", sans-serif;
   --nav-link-font: "Varela Round", sans-serif;
+  --card-body-color: #1b191a;
 }
 
 /*Body Formatting*/
@@ -54,10 +55,22 @@ h2 {
 
 /*Format section header height*/
 .section-header {
-  height: 20vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/spaceBackground.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*Format section header text*/
+.section-header h2 {
+  color: #fff;
+  font-size: 2rem;
+  letter-spacing: 2px;
 }
 
 /* ==========================================================================
@@ -102,7 +115,33 @@ header {
   align-items: center;
 }
 
-/*Format quick access container background*/
+/*Format card body*/
+.card {
+  border-radius: 15px;
+}
+
+.card-body {
+  background-color: var(--card-body-color);
+  border-radius: 15px;
+}
+
+/*Format card icon*/
+.card-body i {
+  font-size: 10rem;
+}
+
+/*Format card button*/
+.cardBtn {
+  display: inline-block;
+  width: 130px;
+  background: transparent;
+  border: 2px solid red;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  font-weight: 900px;
+}
 
 /* ==========================================================================
    FOOTER FORMATTING
