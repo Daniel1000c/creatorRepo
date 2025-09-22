@@ -79,7 +79,6 @@ h2 {
 
 /*Format header background*/
 header {
-  background-color: #273469;
   padding: 10px;
 }
 
@@ -106,7 +105,8 @@ header {
 
 /*Format hero section*/
 .hero-section {
-  background-image: url(../images/starryBackground.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/lightStarryBg.png);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -114,7 +114,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0.8;
 }
 
 /*Format button container*/
