@@ -38,6 +38,7 @@
   --card-title-font: "Lato", sans-serif;
   --nav-link-font: "Varela Round", sans-serif;
   --card-body-color: #1b191a;
+  --site-bg-color: #0a192f;
 }
 
 /*Body Formatting*/
@@ -79,6 +80,7 @@ h2 {
 
 /*Format header background*/
 header {
+  background-color: var(--site-bg-color);
   padding: 10px;
 }
 
@@ -175,6 +177,7 @@ header {
 
 /*Format footer container*/
 .footer {
+  background-color: var(--site-bg-color);
   padding: 10px;
 }
 
