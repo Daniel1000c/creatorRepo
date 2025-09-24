@@ -1,0 +1,75 @@
+/* ==========================================================================
+   FONT FAMILIES
+   ========================================================================== */
+/*Raleway*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*Varela Round*/
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+/* ==========================================================================
+   GENERAL STYLES & RESET
+   ========================================================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Root Formatting for frequent use*/
+:root {
+  --logo-font: "Raleway", sans-serif;
+  --nav-link-font: "Varela Round", sans-serif;
+}
+
+/* ==========================================================================
+   HEADER FORMATTING
+   ========================================================================== */
+header {
+  background-color: red;
+  padding: 10px;
+}
+
+/*Navbar brand*/
+.navbar-brand {
+  font-family: var(--logo-font);
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+/*Navlinks*/
+.nav-link {
+  font-family: var(--nav-link-font);
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin-right: 30px;
+  transition: 0.5s ease-in-out;
+}
+
+/*Navlink hover state*/
+.nav-link:hover {
+  transform: translateY(-2px);
+  color: white;
+}
+
+/*Text underline 0 to 100% width*/
+.nav-link::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  background-color: white;
+  transition: width 0.5s ease-in-out;
+}
+
+/*Text underline hover state*/
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* ==========================================================================
+   FOOTER FORMATTING
+   ========================================================================== */
