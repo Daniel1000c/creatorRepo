@@ -51,23 +51,14 @@ header {
 
 /*Navlink hover state*/
 .nav-link:hover {
-  transform: translateY(-2px);
   color: white;
+  font-weight: bold;
 }
 
-/*Text underline 0 to 100% width*/
-.nav-link::after {
-  content: "";
-  display: block;
-  width: 0px;
-  height: 2px;
-  background-color: white;
-  transition: width 0.5s ease-in-out;
-}
-
-/*Text underline hover state*/
-.nav-link:hover::after {
-  width: 100%;
+/*navbar active state*/
+.navbar .navbar-nav .nav-link.active {
+  color: white;
+  font-weight: bold;
 }
 
 /* ==========================================================================
