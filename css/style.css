@@ -20,14 +20,48 @@
 :root {
   --logo-font: "Raleway", sans-serif;
   --nav-link-font: "Varela Round", sans-serif;
+  --header-bg-color: #01baef;
+  --header-text-color: #fff;
+}
+
+/* ==========================================================================
+   CSS ANIMATIONS
+   ========================================================================== */
+
+/*Header fade down animation*/
+@keyframes fadeDown {
+  0% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 /* ==========================================================================
    HEADER FORMATTING
    ========================================================================== */
 header {
-  background-color: red;
-  padding: 10px;
+  padding: 15px;
+  animation: fadeDown 0.5s ease-in-out;
+}
+
+/*Curved header section border*/
+.curved {
+  position: relative;
+  background: #000428; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #000428,
+    #004e92
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #000428,
+    #004e92
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
 }
 
 /*Navbar brand*/
@@ -37,6 +71,15 @@ header {
   letter-spacing: 2px;
   font-style: italic;
   font-size: 1.5rem;
+  text-transform: uppercase;
+  transition: 0.5s ease-in-out;
+  color: var(--header-text-color);
+}
+
+/*Navbar brand hover state*/
+.navbar-brand:hover {
+  color: aqua;
+  text-shadow: 0 0 10px aqua, 0 0 20px aqua, 0 0 30px aqua, 0 0 40px aqua;
 }
 
 /*Navlinks*/
@@ -46,19 +89,20 @@ header {
   letter-spacing: 1px;
   text-transform: capitalize;
   margin-right: 30px;
+  color: var(--header-text-color);
   transition: 0.5s ease-in-out;
 }
 
 /*Navlink hover state*/
 .nav-link:hover {
-  color: white;
-  font-weight: bold;
+  color: aqua;
+  text-shadow: 0 0 10px aqua, 0 0 20px aqua, 0 0 30px aqua, 0 0 40px aqua;
 }
 
 /*navbar active state*/
 .navbar .navbar-nav .nav-link.active {
-  color: white;
-  font-weight: bold;
+  color: aqua;
+  text-shadow: 0 0 10px aqua, 0 0 20px aqua, 0 0 30px aqua, 0 0 40px aqua;
 }
 
 /* ==========================================================================
