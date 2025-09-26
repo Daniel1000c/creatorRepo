@@ -19,6 +19,11 @@
   box-sizing: border-box;
 }
 
+/*Format scroll behavior*/
+html {
+  scroll-behavior: smooth;
+}
+
 /*Root Formatting for frequent use*/
 :root {
   --logo-font: "Raleway", sans-serif;
