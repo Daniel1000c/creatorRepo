@@ -209,6 +209,50 @@ header {
   align-items: center;
 }
 
+/*Format cta buttons*/
+.cta-btn-container {
+  display: flex;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+/*Format cta buttons*/
+.cta-btn {
+  background-color: var(--btn-color);
+  color: var(--header-text-color);
+  display: inline-block;
+  width: 140px;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 100px;
+  text-decoration: none;
+  font-family: var(--btn-font);
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
+  transition: 0.5s ease;
+  font-size: 1rem;
+}
+
+/*Format cta buttons hover state*/
+.cta-btn:hover {
+  background: transparent;
+  border: 1px solid aqua;
+  color: aqua;
+  text-shadow: 0 0 10px var(aqua), 0 0 20px var(aqua), 0 0 30px var(aqua),
+    0 0 40px var(aqua);
+}
+
+/*Format cta icons to be same height*/
+.cta-btn ion-icon {
+  vertical-align: middle;
+}
+
+/*Format second cta button background*/
+.cta-btn:nth-of-type(2) {
+  background: transparent;
+  border: 2px solid var(--btn-color);
+}
+
 /*Format contact section*/
 .contact-section {
   display: flex;
