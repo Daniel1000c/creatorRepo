@@ -128,6 +128,7 @@ header {
   left: 0;
   z-index: 10;
   width: 100%;
+  transition: 0.5s ease-in-out;
 }
 
 /*Navbar brand*/
@@ -184,6 +185,16 @@ header {
 /*Change navbar toggler icon color focus*/
 .navbar-toggler:focus {
   box-shadow: 0 0 0 0.1rem var(--header-text-color);
+}
+
+/*Create header scroll background*/
+header.scrolled {
+  background: var(--footer-bg-color);
+}
+
+/*Create header open class*/
+header.open {
+  background: var(--footer-bg-color);
 }
 
 /* ==========================================================================
