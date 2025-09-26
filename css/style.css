@@ -29,6 +29,39 @@
   --section-header-title-font: "Montserrat", sans-serif;
 }
 
+/*Format sections*/
+section {
+  padding: 40px 0;
+}
+
+/*Format section headers*/
+section h2 {
+  font-family: var(--section-header-title-font);
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+/*Format section-header*/
+.section-header {
+  margin-bottom: 40px;
+}
+
+/*Format section-header hr lines*/
+.section-header hr {
+  width: 250px;
+  height: 5px;
+  border: none;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background-color: var(--header-bg-color);
+  border-radius: 10px;
+}
+
+/*Format section-header second hr link*/
+.section-header hr:nth-of-type(2) {
+  width: 150px;
+}
+
 /* ==========================================================================
    CSS ANIMATIONS
    ========================================================================== */
