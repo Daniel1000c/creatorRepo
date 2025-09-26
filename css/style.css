@@ -123,25 +123,11 @@ p {
    ========================================================================== */
 header {
   padding: 15px;
-  animation: fadeDown 0.5s ease-in-out;
-}
-
-/*Curved header section border*/
-.curved {
-  position: relative;
-  background: #000428; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #000428,
-    #004e92
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #000428,
-    #004e92
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border-bottom-left-radius: 50% 20%;
-  border-bottom-right-radius: 50% 20%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
 }
 
 /*Navbar brand*/
@@ -207,6 +193,22 @@ header {
 /* ==========================================================================
    INDEX PAGE SECTION FORMATTING
    ========================================================================== */
+
+/*Format hero section*/
+.hero {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/liquidAbstractBg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /*Format contact section*/
 .contact-section {
   display: flex;
