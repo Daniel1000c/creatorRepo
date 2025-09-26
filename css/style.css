@@ -9,6 +9,12 @@
 
 /*Monteserat*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*Open Sans*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/*Nunito Sans*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 /* ==========================================================================
    GENERAL STYLES & RESET
    ========================================================================== */
@@ -33,6 +39,9 @@ html {
   --footer-bg-color: #3586ff;
   --section-header-title-font: "Montserrat", sans-serif;
   --dark-section-bg-color: #f0efef;
+  --body-text-font: "Open Sans", sans-serif;
+  --btn-font: "Nunito Sans", sans-serif;
+  --btn-color: #0095fd;
 }
 
 /*Format sections*/
@@ -45,6 +54,7 @@ section h2 {
   font-family: var(--section-header-title-font);
   font-size: 2rem;
   letter-spacing: 2px;
+  color: #0075f2;
 }
 
 /*Format section-header*/
@@ -72,6 +82,15 @@ section h2 {
 /*Format dark section background*/
 .dark-bg {
   background-color: var(--dark-section-bg-color);
+}
+
+/*Format body text*/
+p {
+  font-family: var(--body-text-font);
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 2;
 }
 
 /* ==========================================================================
@@ -188,3 +207,41 @@ header {
 /* ==========================================================================
    INDEX PAGE SECTION FORMATTING
    ========================================================================== */
+/*Format contact section*/
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/*Format contact section p text*/
+.contact-section p {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+/*Format contact section a tag*/
+.contact-section a {
+  background: transparent;
+  border: 2px solid var(--btn-color);
+  display: inline-block;
+  width: 140px;
+  padding: 10px 20px;
+  border-radius: 100px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: var(--btn-font);
+  letter-spacing: 2px;
+  transition: 0.5s ease-in-out;
+}
+
+/*Create contact section a tag hover state*/
+.contact-section a:hover {
+  background: var(--btn-color);
+  color: white;
+  text-shadow: 0 0 10px var(--btn-color), 0 0 20px var(--btn-color),
+    0 0 30px var(--btn-color), 0 0 40px var(--btn-color);
+}
