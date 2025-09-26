@@ -6,6 +6,9 @@
 
 /*Varela Round*/
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+/*Monteserat*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 /* ==========================================================================
    GENERAL STYLES & RESET
    ========================================================================== */
@@ -23,6 +26,7 @@
   --header-bg-color: #01baef;
   --header-text-color: #fff;
   --footer-bg-color: #3586ff;
+  --section-header-title-font: "Montserrat", sans-serif;
 }
 
 /* ==========================================================================
