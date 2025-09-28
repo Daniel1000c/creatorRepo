@@ -204,8 +204,8 @@ header.open {
 
 /*Format footer tag*/
 footer {
-  background-color: red;
-  padding: 50px 0;
+  background-color: var(--footer-bg-color);
+  padding: 25px 0;
 }
 
 /*Format footer socials container*/
@@ -217,16 +217,55 @@ footer .socials {
 /*Format socials links*/
 footer .socials a {
   font-size: 24px;
-  border: 1px solid white;
+  border: 2px solid white;
+  color: #fff;
   width: 40px;
   height: 40px;
   line-height: 38px;
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  margin: 0.8px;
+  margin: 0 8px;
   opacity: 0.75;
   transition: 0.5s ease-in-out;
+}
+
+/*Format quick links container*/
+footer .quick-links ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+/*Format footer links*/
+.quick-links li a {
+  color: white;
+  opacity: 0.75;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+}
+
+/*Format li items*/
+footer .quick-links li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+/*Format li items hover state*/
+.quick-links li a:hover {
+  opacity: 1;
+}
+
+/*Format copyright text*/
+.copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
 }
 
 /* ==========================================================================
@@ -260,7 +299,7 @@ footer .socials a {
 }
 
 /*Format hero-information h4 tag*/
-.hero-information h4 {
+.hero-information h3 {
   font-family: sans-serif;
   letter-spacing: 2px;
   font-size: 1.5rem;
