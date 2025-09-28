@@ -202,6 +202,33 @@ header.open {
    FOOTER FORMATTING
    ========================================================================== */
 
+/*Format footer tag*/
+footer {
+  background-color: red;
+  padding: 50px 0;
+}
+
+/*Format footer socials container*/
+footer .socials {
+  text-align: center;
+  padding: 25px;
+}
+
+/*Format socials links*/
+footer .socials a {
+  font-size: 24px;
+  border: 1px solid white;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0.8px;
+  opacity: 0.75;
+  transition: 0.5s ease-in-out;
+}
+
 /* ==========================================================================
    INDEX PAGE SECTION FORMATTING
    ========================================================================== */
