@@ -60,7 +60,6 @@ section h2 {
 /*Format section-header*/
 .section-header {
   margin-bottom: 40px;
-  animation: upDown 0.5s infinite alternate ease-in-out;
 }
 
 /*Format section-header hr lines*/
@@ -126,6 +125,16 @@ p {
   }
   100% {
     text-shadow: 0 0 10px aqua, 0 0 20px aqua, 0 0 30px aqua, 0 0 40px aqua;
+  }
+}
+
+/*Create hero section fade in animation*/
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 /* ==========================================================================
@@ -305,10 +314,23 @@ footer .quick-links li {
   align-items: center;
 }
 
+/*Format hero content fade in animation*/
+.hero-content {
+  animation: fadeIn 1s ease-in-out;
+}
+
 /*Format hero information container*/
 .hero-information,
 .hero-img-container {
   padding: 20px;
+}
+
+/*Format hero information container*/
+.hero-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 /*Format hero-information container*/
@@ -331,6 +353,25 @@ footer .quick-links li {
   font-family: var(--body-text-font);
   font-size: 1rem;
   color: var(--header-text-color);
+}
+
+/*Format hero img*/
+.hero-img-container img {
+  width: 100%;
+  border-radius: 20px;
+  animation: upDown 0.5s infinite alternate ease-in-out;
+}
+
+/*Format blog magic pattern*/
+.magicpattern {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M825 685.5Q714 871 497 876T159.5 690.5Q39 500 191 364.5t350-207Q739 86 837.5 293T825 685.5Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22%233586ff%22 d=%22M825 685.5Q714 871 497 876T159.5 690.5Q39 500 191 364.5t350-207Q739 86 837.5 293T825 685.5Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
 }
 
 /*Format cta buttons*/
@@ -418,4 +459,18 @@ footer .quick-links li {
   color: white;
   text-shadow: 0 0 10px var(--btn-color), 0 0 20px var(--btn-color),
     0 0 30px var(--btn-color), 0 0 40px var(--btn-color);
+}
+
+/* ==========================================================================
+   ABOUT SECTION FORMATTING
+   ========================================================================== */
+/*Format about-content margin*/
+.about-content {
+  margin-top: 35px;
+}
+
+/*Format about text and about img container*/
+.about-img-container,
+.about-text {
+  padding: 20px;
 }
