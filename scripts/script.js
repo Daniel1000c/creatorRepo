@@ -1,4 +1,4 @@
-const header = document.getElementById("header");
+const navbar = document.querySelector(".navbar");
 const navbarCollapse = document.querySelector(".navbar-collapse");
 
 //Create scroll event function
@@ -8,22 +8,22 @@ const scrollFunction = () => {
 
   //Check if header is scrolled down
   if (scrollPosition > 0) {
-    header.classList.add("scrolled");
+    navbar.classList.add("scrolled");
   } else {
-    header.classList.remove("scrolled");
+    navbar.classList.remove("scrolled");
   }
 };
 
 //Create function when menu opens on mobile
 navbarCollapse.addEventListener("show.bs.collapse", () => {
   //Add open class
-  header.classList.add("open");
+  navbar.classList.add("open");
 });
 
 //Create function when menu closes on mobile
 navbarCollapse.addEventListener("hide.bs.collapse", () => {
   //Remove open class
-  header.classList.remove("open");
+  navbar.classList.remove("open");
 });
 
 //Create scroll event listener
