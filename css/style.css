@@ -230,6 +230,12 @@ footer .socials a {
   transition: 0.5s ease-in-out;
 }
 
+/*Format socials links hover state*/
+footer .socials a:hover {
+  transform: translateY(-5px);
+  opacity: 1;
+}
+
 /*Format quick links container*/
 footer .quick-links ul {
   margin-top: 0;
