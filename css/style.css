@@ -118,6 +118,16 @@ p {
     transform: translateY(10px);
   }
 }
+
+/*Create text glow*/
+@keyframes textGlow {
+  0% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 0 0 10px aqua, 0 0 20px aqua, 0 0 30px aqua, 0 0 40px aqua;
+  }
+}
 /* ==========================================================================
    HEADER FORMATTING
    ========================================================================== */
@@ -219,6 +229,7 @@ header.open {
 .hero-information h2 {
   color: aqua;
   font-size: 3rem;
+  animation: textGlow 1s infinite alternate ease-in-out;
 }
 
 /*Format hero-information h4 tag*/
