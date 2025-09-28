@@ -131,6 +131,15 @@ p {
 /* ==========================================================================
    HEADER FORMATTING
    ========================================================================== */
+/*Format header container*/
+header {
+  padding: 10px 0;
+}
+
+/*Give transition class to navbar*/
+.navbar {
+  transition: 0.5s ease-in-out;
+}
 
 /*Navbar brand*/
 .navbar-brand {
@@ -187,15 +196,20 @@ p {
 .navbar-toggler:focus {
   box-shadow: 0 0 0 0.1rem var(--header-text-color);
 }
-
 /*Create header scroll background*/
-header.scrolled {
-  background: var(--footer-bg-color);
+.navbar.scrolled {
+  background: rgba(0, 117, 242, 0.5);
+  border-bottom: 2px solid rgba(0, 117, 242, 0.6);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
 }
 
 /*Create header open class*/
-header.open {
-  background: var(--footer-bg-color);
+.navbar.open {
+  background: rgba(0, 117, 242, 0.5);
+  border-bottom: 2px solid rgba(0, 117, 242, 0.6);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
 }
 
 /* ==========================================================================
@@ -300,7 +314,7 @@ footer .quick-links li {
 /*Format hero-information container*/
 .hero-information h2 {
   color: aqua;
-  font-size: 3rem;
+  font-size: 2.5rem;
   animation: textGlow 1s infinite alternate ease-in-out;
 }
 
