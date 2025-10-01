@@ -1,8 +1,119 @@
 /* ==========================================================================
+   FONT FAMILIES
+   ========================================================================== */
+/*Poppins*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/*Open Sans*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+/* ==========================================================================
    CSS VARIABLES & RESET
    ========================================================================== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/*Root Formatting*/
+:root {
+  --navbar-font: "Poppins", sans-serif;
+  --nav-link-font: "Open Sans", sans-serif;
+  --header-font-color: #fff;
+}
+
+/*Format section paddings*/
+section {
+  padding: 30px 0;
+  background-color: lightgray;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+/* ==========================================================================
+   HEADER FORMATTING
+   ========================================================================== */
+
+/*Format header tag*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  width: 85%;
+  padding: 5px 0;
+}
+
+/*Format navbar brand*/
+.navbar-brand {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-family: var(--navbar-font);
+  font-weight: 800;
+  color: var(--header-font-color);
+  transition: 0.5s ease-in;
+}
+
+.navbar-brand:hover {
+  color: #1f51ff;
+}
+
+/*Format nav links*/
+.navbar-nav .nav-link {
+  margin-right: 30px;
+  text-transform: capitalize;
+  font-family: var(--nav-link-font);
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-size: 1em;
+  color: var(--header-font-color);
+  transition: 0.5s ease-in;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #00ccff;
+  transform: translateY(-5px);
+  text-shadow: 0 0 5px #00ccff, 0 0 10px #00ccff, 0 0 15px #00ccff;
+}
+
+/*Format nav-link active state*/
+.navbar-nav .nav-link.active {
+  color: #00ccff;
+  transform: translateY(-5px);
+  text-shadow: 0 0 5px #00ccff, 0 0 10px #00ccff, 0 0 15px #00ccff;
+}
+
+/*Format navbar toggler*/
+.navbar-toggler {
+  box-shadow: none;
+  border: 2px solid var(--header-font-color);
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/*Format navbar toggler icon*/
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
+/* ==========================================================================
+   HERO SECTION
+   ========================================================================== */
+/*Format hero section background*/
+.hero-section {
+  position: relative;
+  margin-top: -70px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/3dAbstractBg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
 }
