@@ -325,6 +325,28 @@ footer {
   align-items: center;
 }
 
+/*Format hero img*/
+.hero-img {
+  animation: float 3s ease-in-out infinite;
+}
+
+/*Create hero img float effect*/
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* ==========================================================================
+   ABOUT SECTION FORMATTING
+   ========================================================================== */
+
 /* ==========================================================================
    CONTACT SECTION FORMATTING
    ========================================================================== */
