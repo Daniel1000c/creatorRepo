@@ -14,14 +14,5 @@ const headerScrolled = () => {
   }
 };
 
-//Create header toggle function
-const headerToggle = () => {
-  //Toggle header scrolled class
-  header.classList.toggle("scrolled");
-};
-
 //Add header scroll event listener
 window.addEventListener("scroll", headerScrolled);
-
-//Add header toggle event listener
-header.addEventListener("click", headerToggle);
