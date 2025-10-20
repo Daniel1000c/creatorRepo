@@ -24,6 +24,24 @@ html {
   --main-text-font: "Open Sans", sans-serif;
 }
 
+/*BODY FORMATTING*/
+body {
+  font-family: var(--main-text-font);
+}
+
+/*Section formatting*/
+section {
+  padding: 10px;
+}
+
+/*Hr rule formatting*/
+hr {
+  height: 2px;
+  background-color: black;
+  border-color: black;
+  border-radius: 10px;
+}
+
 /* ==========================================================================
    HEADER FORMATTING
    ========================================================================== */
@@ -36,7 +54,6 @@ header {
 .navbar-brand {
   font-family: var(--main-text-font);
   font-weight: 700;
-  font-style: italic;
   text-transform: uppercase;
 }
 
