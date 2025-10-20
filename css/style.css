@@ -14,6 +14,11 @@
   box-sizing: border-box;
 }
 
+/*HTML FORMATTING*/
+html {
+  scroll-behavior: smooth;
+}
+
 /*ROOT FORMATTING*/
 :root {
   --main-text-font: "Open Sans", sans-serif;
@@ -22,7 +27,12 @@
 /* ==========================================================================
    HEADER FORMATTING
    ========================================================================== */
-/*Format navbar-brand*/
+/*Format header*/
+header {
+  box-shadow: 0 4px 6px -6px rgba(0, 0, 0, 0.3);
+}
+
+/*Format navbar brand*/
 .navbar-brand {
   font-family: var(--main-text-font);
   font-weight: 700;
@@ -30,19 +40,9 @@
   text-transform: uppercase;
 }
 
-/*Format nav links*/
-.navbar-collapse .navbar-nav .nav-link {
+/*Format nav link*/
+.nav-link {
   font-family: var(--main-text-font);
   font-weight: 400;
-  text-transform: capitalize;
-}
-
-/*Format sm icons orientation*/
-.sm-icons {
-  flex-direction: row;
-}
-
-/*Format sm icons sizes*/
-.social-icon {
-  font-size: 1.4em;
+  letter-spacing: 1.5px;
 }
