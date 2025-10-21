@@ -19,8 +19,14 @@ html {
   scroll-behavior: smooth;
   font-size: 62.5%; /*Make it easier to change font size*/
 }
+:root {
+  --site-text: "Open Sans", sans-serif;
+}
 
 /*GENERAL TAG FORMATTING*/
+body {
+  font-family: var(--site-text);
+}
 
 /*Format section padding*/
 section {
@@ -28,8 +34,30 @@ section {
 }
 
 /*Format section titles*/
-section h2 {
+h2 {
   text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+a,
+p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+a {
+  line-height: 1.4;
+}
+
+p {
+  line-height: 1.5;
+}
+
+hr {
+  height: 3px;
+  background-color: #000;
+  border-radius: 10px;
 }
 
 /* ==========================================================================
@@ -38,4 +66,53 @@ section h2 {
 /*Format header*/
 header {
   box-shadow: 0 4px 6px -6px rgba(0, 0, 0, 0.3);
+}
+
+/*Format navbar-brand*/
+.navbar-brand {
+  font-family: var(--site-text);
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+/*Format navbar icon size*/
+.navbar-toggler {
+  font-size: 2.5rem;
+}
+
+/*Format nav-link */
+.nav-link {
+  font-family: var(--site-text);
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+}
+
+/* ==========================================================================
+   SECTION FORMATTING
+   ========================================================================== */
+
+/*Format subtext*/
+.subtext {
+  font-style: italic;
+  font-size: 1.4rem;
+}
+/* ==========================================================================
+  FOOTER FORMATTING
+   ========================================================================== */
+
+/*Format quick links*/
+.quick-link-container a {
+  text-decoration: none;
+  color: #000;
+  opacity: 0.8;
+  letter-spacing: 1.3px;
+}
+
+/*Format social container links*/
+.socials-container a i {
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 2.2rem;
+  color: black;
+  border-radius: 50%;
 }
