@@ -17,29 +17,19 @@
 /*HTML FORMATTING*/
 html {
   scroll-behavior: smooth;
+  font-size: 62.5%; /*Make it easier to change font size*/
 }
 
-/*ROOT FORMATTING*/
-:root {
-  --main-text-font: "Open Sans", sans-serif;
-}
+/*GENERAL TAG FORMATTING*/
 
-/*BODY FORMATTING*/
-body {
-  font-family: var(--main-text-font);
-}
-
-/*Section formatting*/
+/*Format section padding*/
 section {
   padding: 10px;
 }
 
-/*Hr rule formatting*/
-hr {
-  height: 2px;
-  background-color: black;
-  border-color: black;
-  border-radius: 10px;
+/*Format section titles*/
+section h2 {
+  text-align: center;
 }
 
 /* ==========================================================================
@@ -48,18 +38,4 @@ hr {
 /*Format header*/
 header {
   box-shadow: 0 4px 6px -6px rgba(0, 0, 0, 0.3);
-}
-
-/*Format navbar brand*/
-.navbar-brand {
-  font-family: var(--main-text-font);
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-/*Format nav link*/
-.nav-link {
-  font-family: var(--main-text-font);
-  font-weight: 400;
-  letter-spacing: 1.5px;
 }
