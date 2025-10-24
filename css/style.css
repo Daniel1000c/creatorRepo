@@ -96,6 +96,47 @@ header {
   font-style: italic;
   font-size: 1.4rem;
 }
+
+/* ==========================================================================
+   SERVICES FORMATTING
+   ========================================================================== */
+
+/*Format card borders*/
+.card {
+  border-radius: 20px;
+}
+
+/*Format card icons*/
+.card > i {
+  font-size: 5rem;
+}
+
+/*Format card title*/
+.card-title {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 2.074rem;
+}
+
+/*Format card text*/
+.card-text {
+  line-height: 2;
+}
+
+/*Format service buttons*/
+.service-button {
+  display: inline-block;
+  width: 200px;
+  padding: 10px;
+  border-radius: 100px;
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1.7rem;
+  background: transparent;
+  border: 2px solid black;
+  color: black;
+}
 /* ==========================================================================
   FOOTER FORMATTING
    ========================================================================== */
