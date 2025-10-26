@@ -48,7 +48,7 @@ h3 {
 
 h4 {
   font-size: 1.728rem;
-  font-weight: 700;
+  margin-bottom: 20px;
 }
 
 a,
@@ -112,31 +112,27 @@ header {
    SKILLS FORMATTING
    ========================================================================== */
 
-/*Format skill item container*/
+/*Format skills container*/
 .skill-item-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
-/*Skill item */
+/*Format grid items*/
 .skill-item {
   text-align: center;
-  padding: 10px;
-  width: 90px;
+  padding: 15px;
 }
 
-/*Format skill icons*/
+/*Format skill item icons*/
 .skill-item i {
   font-size: 5rem;
   margin-bottom: 10px;
-  background-color: red;
-  padding: 15%;
+  background-color: black;
+  padding: 10px;
   border-radius: 10px;
 }
-
 /* ==========================================================================
    SERVICES FORMATTING
    ========================================================================== */
@@ -177,6 +173,15 @@ header {
   border: 2px solid black;
   color: black;
 }
+
+/* ==========================================================================
+    PORTFOLIO FORMATTING
+   ========================================================================== */
+
+/* ==========================================================================
+   CONTACT FORMATTING
+   ========================================================================== */
+
 /* ==========================================================================
   FOOTER FORMATTING
    ========================================================================== */
