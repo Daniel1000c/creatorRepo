@@ -231,13 +231,13 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/barbellEquinox.png" class="d-block w-100" alt="template image">
+                <img src="images/barbellEquinox.webp" class="d-block w-100" alt="template image">
               </div>
               <div class="carousel-item">
-                <img src="images/barbellEquinox.png" class="d-block w-100" alt="template image">
+                <img src="images/barbellEquinox.webp" class="d-block w-100" alt="template image">
               </div>
               <div class="carousel-item">
-                <img src="images/barbellEquinox.png" class="d-block w-100" alt="template image">
+                <img src="images/barbellEquinox.webp" class="d-block w-100" alt="template image">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -263,17 +263,48 @@
            <div class="row mt-5 g-5">
             <!-- Contact Information -->
              <div class="col-12 col-md-6">
-              <h3><i class="fa-solid fa-address-card"></i> My Contacts</h3>
-              <address>
-                <h4>Email</h4>
-                <h4>LinkedIn</h4>
-                <h4>Phone #</h4>
+              <h3><i class="fa-solid fa-address-card mb-5"></i> My Contacts</h3>
+              <address class="contact-info-container">
+                <div class="contact-info-item mb-5">
+                  <h4>Email</h4>
+                  <p><a href="mailto:velezdaniel6162@gmail.com" class="text-muted">velezdaniel6162@gmail.com &rightarrow;</a></p>  
+                </div>
+                <div class="contact-info-item mb-5">
+                  <h4>LinkedIn</h4>
+                  <p><a href="https://www.linkedin.com/in/daniel-velez-b17748286/" rel="noreferrer noopener" target="_blank" class="text-muted">Explore my LinkedIn &rightarrow;</a></p>
+                </div>
+                <div class="contact-info-item mb-5">
+                  <h4>Phone #</h4>
+                  <p></p><a href="tel:+13055270765" class="text-muted">305-527-0765 &rightarrow;</a></p>
+                </div>
               </address>
              </div>
 
             <!-- Contact Form -->
              <div class="col-12 col-md-6">
-              <h3><i class="fa-regular fa-message"></i> Write Me a Message</h3>
+              <h3><i class="fa-regular fa-message mb-5"></i> Write Me a Message</h3>
+
+              <!--Contact Form-->
+              <form action="#" method="post">
+                <!-- Name Input -->
+                 <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="client_name" name="client_name" placeholder="name@example.com">
+                  <label for="floatingInput">Name</label>
+                </div>
+                <!-- Email Input -->
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="client_email" name="client_email" placeholder="name@example.com">
+                  <label for="floatingInput">Email</label>
+                </div>
+                <!-- Text Area Input -->
+                <div class="form-floating mb-3">
+                  <textarea class="form-control" placeholder="Leave a comment here" id="client_message" name="client_message"></textarea>
+                  <label for="floatingTextarea">Message</label>
+                </div>
+
+                <!--Submit button-->
+                <input type="submit" value="Submit">
+              </form>
              </div>
            </div>
           <hr>
